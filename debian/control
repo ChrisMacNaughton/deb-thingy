@@ -1,0 +1,15 @@
+Source: Package name
+Section: non-free/admin
+Priority: optional
+Maintainer: Name <Email>
+Build-Depends: debhelper (>= 8.0.0), libpcap-dev (>=0.8), libatasmart-dev
+Standards-Version: 3.9.4
+Homepage: Repo path?
+#Vcs-Git: git://git.debian.org/collab-maint/optional-name.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/admin-ceph.git;a=summary
+
+Package: Package name
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libatasmart4
+Description: Description that
+    can be multiple lines

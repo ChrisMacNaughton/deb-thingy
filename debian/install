@@ -1,0 +1,4 @@
+admin_ceph usr/bin/
+decode_ceph.yaml etc/default/
+admin-ceph.conf etc/init/
+admin-ceph.service /lib/systemd/system/
